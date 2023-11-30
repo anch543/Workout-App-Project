@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mental Health Check-In</title>
+</head>
+<body>
+	<h1>Welcome to the Mental Health Check-In App</h1>
+	<p>This app is designed to help you assess your mental and physical well-being. Please follow the instructions below to complete the check-in process.</p>
+	<h2>Mood Assessment</h2>
+	<p>Please select your current mood from the following options:</p>
+	<form>
+		<input type="radio" id="happy" name="mood" value="happy">
+		<label for="happy">Happy</label><br>
+		<input type="radio" id="sad" name="mood" value="sad">
+		<label for="sad">Sad</label><br>
+		<input type="radio" id="anxious" name="mood" value="anxious">
+		<label for="anxious">Anxious</label><br>
+		<input type="radio" id="calm" name="mood" value="calm">
+		<label for="calm">Calm</label><br>
+	</form>
+	<p>Based on your selection, we will determine your overall emotional state.</p>
+	<h2>Energy Level Assessment</h2>
+	<p>Please rate your energy level on a scale of 1 to 10, with 1 being very low and 10 being very high.</p>
+	<input type="range" min="1" max="10" step="1" oninput="this.nextElementSibling.value = this.value">
+	<output>1</output>
+	<p>Based on your selection, we will determine your physical capacity.</p>
+</body>
+</html>
