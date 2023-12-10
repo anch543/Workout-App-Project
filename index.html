@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Mental Health Check-In</title>
 </head>
+
 <body>
 	<h1>Welcome to the Mental Health Check-In App</h1>
-	<p>This app is designed to help you assess your mental and physical well-being. Please follow the instructions below to complete the check-in process.</p>
+	<p>This app is designed to help you assess your mental and physical well-being. Please follow the instructions below
+		to complete the check-in process.</p>
 	<h2>Mood Assessment</h2>
 	<p>Please select your current mood from the following options:</p>
 	<form>
@@ -24,5 +27,24 @@
 	<input type="range" min="1" max="10" step="1" oninput="this.nextElementSibling.value = this.value">
 	<output>1</output>
 	<p>Based on your selection, we will determine your physical capacity.</p>
+	<button id="showWorkoutsBtn">Show Workouts</button>
+
+	<section id="moodresult">
+		<h2>Welcome to Fitness Hub</h2>
+		<p>Base on your mood, we suggest the following:</p>
+		<!-- Display mood results here -->
+	</section>
+
+
+	<section id="workouts">
+		<h2>Workouts</h2>
+		<!-- Display workout options or videos here -->
+	</section>
+
+	<script src="js/javascript.js">
+
+	</script>
+
 </body>
+
 </html>
